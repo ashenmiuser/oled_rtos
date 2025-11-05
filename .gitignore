@@ -1,0 +1,64 @@
+# === 嵌入式编译输出 ===
+*.o
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.axf
+*.sym
+
+# === IDE/编辑器文件 ===
+# Keil MDK
+*.uvgui.*
+*.uvopt
+*.uvproj
+*.uvmpw
+*.bak
+*.crf
+*.dep
+*.iex
+*.lnp
+*.sct
+*.tra
+
+# IAR Embedded Workbench
+*.ewd
+*.ewp
+*.eww
+*.dep
+*.bat
+
+# STM32CubeIDE
+.metadata/
+Debug/
+Release/
+*.launch
+.project
+.cproject
+.settings/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# === 依赖和构建目录 ===
+build/
+obj/
+lib/
+bin/
+
+# === 日志文件 ===
+*.log
+*.trace
+
+# === 个人配置文件 ===
+*.local
+.env
